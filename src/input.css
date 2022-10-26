@@ -1,3 +1,85 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.skill::before {
+    content: attr(data-text);
+    @apply
+     absolute top-full
+     opacity-100 dark:text-indigo-600 md:opacity-0 sm:opacity-100
+     w-max px-3 py-2 mt-3
+     bg-white rounded md:shadow-md transition
+
+}
+.skill:hover::before{
+    @apply 
+    opacity-100
+}
+
+.elemen {
+    @apply
+    relative
+     translate-y-44
+     opacity-0
+     transition-all duration-500
+     
+
+}
+
+
+.tampil {
+    @apply
+    relative
+    translate-y-0
+    opacity-100
+}
+.elementst {
+    @apply
+    relative
+     translate-y-44
+     opacity-0
+     transition-all duration-500
+     
+
+}
+
+
+.kusus {
+    @apply
+    relative
+    translate-y-0
+    opacity-100
+}
+
+
+.element {
+    @apply
+    relative
+    translate-x-9
+    opacity-0
+    transition-all duration-500
+}
+
+.kanan {
+    @apply
+    relative
+    translate-x-0
+    opacity-100
+}
+
+.elements {
+    @apply
+    relative
+    -translate-x-44
+    opacity-0
+    transition-all duration-500
+}
+
+.kiri {
+    @apply
+    relative
+    translate-x-0
+    opacity-100
+}
+

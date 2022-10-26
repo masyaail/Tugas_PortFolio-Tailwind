@@ -12,13 +12,14 @@
   </head>
   <body class="font-nunito">
     <!-- intro Section -->
-    <header id="home">
+    <header id="home" >
     
       
-    <div class="h-[50vh] lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden">
+    <div class="h-[50vh]  lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden">
       <nav class="w-full fixed top-0 bg-white dark:bg-slate-900 shadow-md bg-transparent  z-50 backdrop-blur-sm">
         <div class="container mx-auto py-5 flex items-center justify-between lg:px-5">
-          <div class="text-3xl font-extrabold items-center dark:text-indigo-600 ">Port<span class="text-blue-100">Folio</span></div>
+          <div class="text-3xl font-extrabold items-center dark:text-indigo-600 ">Port<span class="text-blue-100">Folio</span>
+          </div>
 
           <ul class="hidden md:flex space-x-10 font-bold text-sm uppercase dark:text-gray-200">
             <li class="hover:text-gray-500 dark:hover:text-indigo-700"><a href="#home">Home</a></li>
@@ -27,15 +28,15 @@
             <li class="hover:text-gray-500 dark:hover:text-indigo-700"><a href="#project">Project</a></li>
             <li class="hover:text-gray-500 dark:hover:text-indigo-700"><a href="#contact">Contact</a></li>
           </ul>
-          <div class="hidden md:block w-5 cursor-pointer">
+          <!-- <div class="hidden md:block w-5 cursor-pointer">
             
-          </div>
+          </div> -->
           <!-- dark togle -->
-          <div>
+          <div >
             <input id="moon" type="checkbox" class="toggle toggle-md" checked />
           </div>
           <!-- humberger menu -->
-          <div class="space-y-1 md:hidden cursor-pointer">
+          <div class="space-y-1 lg:hidden md:hidden cursor-pointer">
             <label class="btn btn-circle swap swap-rotate bg-indigo-400 border-indigo-400">
               <input id="hamburger" class="hidden" type="checkbox" />
 
@@ -46,7 +47,7 @@
               </svg>
             </label>
           </div>
-          <ul id="menu" class="hidden bg-indigo-400 absolute shadow-lg left-20 md:left-36 top-14 w-[300px] rounded-3xl text-teal-50 text-center space-y-4 py-3">
+          <ul id="menu" class="menu rounded-box hidden bg-indigo-400 absolute shadow-lg left-14 md:left-36 top-14 w-[300px]  text-teal-50 text-center ">
             <li id="hLink" class="hover:text-gray-500"><a href="#home">Home</a></li>
             <li id="hLink" class="hover:text-gray-500"><a href="#about">About Me</a></li>
             <li id="hLink" class="hover:text-gray-500"><a href="#skill">Skill</a></li>
@@ -57,12 +58,12 @@
       </nav>
       <!-- intro content -->
       <!-- image -->
-      <img class="absolute bottom-0 right-0  lg:left-0 mx-auto h-5/6 object-cover scale-y-75 -mb-10 lg:scale-100 lg:-mb-0" src="assets/img/foto2.png" alt="fotoku" />
+      <img class="absolute bottom-0 right-0  lg:left-0 mx-auto h-4/5 cobject-cover  lg:scale-100  lg:-mb-0" src="assets/img/undraw_coding_re_iv62.svg" alt="fotoku" />
       <!-- circle -->
       <div class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-[40rem] h-[40rem] bg-indigo-900 rounded-full -z-10"></div>
       <!-- animated -->
       <div class="absolute top-1/3 left-5 text-xl font-extrabold  sm:text-2xl  md:text-6xl lg:left-10">
-        <span id="text" class="text-sky-900 dark:text-indigo-700">FontEnd</span>
+        <span id="text" class="text-sky-900 dark:text-indigo-700">FrontEnd</span>
         <p  class= "text-rose-600">Developer</p>
       </div>
       <!-- text -->
@@ -80,16 +81,16 @@
 
  <!-- About Section -->
 
-<section id="about" class="relative overflow-hidden py-10 bg-gradient-to-b from-indigo-200    dark:from-slate-800 dark:to-slate-900 ">
-  <div class="">
+<section id="about" class=" relative overflow-hidden py-10 bg-gradient-to-b from-indigo-200    dark:from-slate-800 dark:to-slate-900 ">
+  <div class="elements">
     <h1 class="w-max mx-auto font-extrabold text-4xl pt-7 border-b-2 border-sky-400 dark:text-gray-200">About Me</h1>
   </div>
   <!-- titik -->
-  <div class="absolute left-5 top-32 lg:left-14">
+  <div class="element absolute left-5 top-32 lg:left-14">
     <img class="" src="assets/img/titk1.png" alt="" width="100">
   </div>
   <!--  -->
-  <div class="flex justify-evenly relative my-16">
+  <div class="elemen flex justify-evenly relative my-16">
     <div >
       <img class="rounded-3xl shadow-lg dark:shadow-indigo-200 sm:w-[100px] lg:w-[200px]" src="assets/img/profil.png" alt="" width="200">
     </div>
@@ -107,8 +108,8 @@
 <!-- goal -->
 <section class="pb-32 bg-gradient-to-t from-indigo-200  dark:from-slate-800 dark:to-slate-900 dark:text-gray-200 relative overflow-hidden">
   <div class="mb-28">
-    <h1 class="w-max mx-auto font-extrabold text-4xl pt-7 border-b-2 border-sky-400 ">Goals</h1>
-    <p class="font-medium text-xl text-center mt-3 text-gray-400 md:text-lg">
+    <h1 class="element w-max mx-auto font-extrabold text-4xl pt-7 border-b-2 border-sky-400 ">Goals</h1>
+    <p class="elemen font-medium text-xl text-center mt-3 text-gray-400 md:text-lg">
      This is my Goals In :
     </p>
   </div>
@@ -116,7 +117,7 @@
       <img class="absolute left-3/4 -bottom-[500px] lg:-bottom-[200px] lg:left-[90%]" src="assets/img/titik2.png" alt="" width="100">
   </div>
   <div class="flex flex-col items-center gap-4 lg:justify-evenly lg:flex-row">
-      <div class="border-2 border-slate-700 w-1/2 rounded-lg lg:w-1/3 shadow-lg dark:shadow-indigo-200">
+      <div class="elemen border-2 border-slate-700 w-1/2 rounded-lg lg:w-1/3 shadow-lg dark:shadow-indigo-200">
           <h2 class="font-extrabold p-3 text-center">Now</h2>
           <ol class="list-none pl-4 pb-4">
            <li>1. Menguasai kotlin </li>
@@ -127,7 +128,7 @@
            <li>6. Membuat Web Dengan apa yang sudah dipelajari</li>
           </ol>
       </div>
-      <div class="border-2 border-slate-700
+      <div class="elemen border-2 border-slate-700
        w-1/2 lg:w-1/3 rounded-xl shadow-lg dark:shadow-indigo-200">
           <h2 class="font-extrabold p-3 text-center">Future</h2>
           <ol class="list-none pl-4 pb-10">
@@ -135,7 +136,7 @@
            <li>2. Membangun Bisnis ke Luar negri</li>
            <li>3. Mengembangkan Aplikasi yang sudah dibuat Menjadi Besar</li>
            <li>4. Bisa Ke Luar Negri dengan penghasian sendiri</li>
-           <li>5. MongoDb</li>
+           <li>5. </li>
           </ol>
       </div>
      
@@ -152,27 +153,27 @@
   <section id="skill" class="pt-20 pb-32 relative overflow-hidden bg-gradient-to-b from-indigo-200 dark:from-slate-800 dark:to-slate-900 dark:text-gray-200" id="skill">
 
     <div class="w-max mx-auto">
-      <h1 class="border-b-4 border-sky-400 text-3xl font-bold ">Skill</h1>
+      <h1 class="elemen border-b-4 border-sky-400 text-3xl font-bold ">Skill</h1>
     </div>
     
-    <div class="flex flex-wrap  items-center justify-evenly my-32 gap-2 ">
-      <div class="w-32 h-32 mr-3 bg-slate-100 dark:bg-gray-300 rounded-full flex justify-center items-center  cursor-pointer shadow-md hover:bg-white dark:hover:bg-indigo-400 dark:hover:shadow-indigo-200 hover:scale-110 hover:shadow-lg">
-        <img src="assets/img/html.png" alt="html" width="90" height="90" class="items-center">
+    <div class=" flex flex-wrap  items-center justify-evenly my-32 gap-24 md:gap-12 ">
+      <div class="elements skill relative w-28 h-28 mr-3 bg-slate-100 dark:bg-gray-300 rounded-full flex justify-center items-center  cursor-pointer shadow-md hover:bg-white dark:hover:bg-indigo-400 dark:hover:shadow-indigo-200 hover:scale-110 hover:shadow-lg" data-text="Experience 2 Month">
+        <img src="assets/img/html.png" alt="html"  class="items-center w-16">
       </div>
-      <div class="w-32 h-32 mr-3 bg-slate-100 dark:bg-gray-300 rounded-full flex justify-center items-center  cursor-pointer shadow-md hover:bg-white dark:hover:bg-indigo-400 dark:hover:shadow-indigo-200  hover:scale-110 hover:shadow-lg">
-        <img src="assets/img/CSS.png" alt="html" width="50" height="90" class="items-center">
+      <div class="element skill relative w-28 h-28 mr-3 bg-slate-100 dark:bg-gray-300 rounded-full flex justify-center items-center  cursor-pointer shadow-md hover:bg-white dark:hover:bg-indigo-400 dark:hover:shadow-indigo-200 hover:scale-110 hover:shadow-lg" data-text="Experience 2 Month">
+        <img src="assets/img/CSS.png" alt="html" width="50" height="90" class="items-center w-16">
       </div>
-      <div class="w-32 h-32 mr-3 bg-slate-100 dark:bg-gray-300 rounded-full flex justify-center items-center  cursor-pointer shadow-md hover:bg-white dark:hover:bg-indigo-400 dark:hover:shadow-indigo-200  hover:scale-110 hover:shadow-lg">
-        <img src="assets/img/js.png" alt="html" width="90" height="90" class="items-center">
+      <div class="elements skill relative w-28 h-28 mr-3 bg-slate-100 dark:bg-gray-300 rounded-full flex justify-center items-center  cursor-pointer shadow-md hover:bg-yellow-300 dark:hover:bg-indigo-400 dark:hover:shadow-indigo-200 hover:scale-110 hover:shadow-lg" data-text="Experience 2 Month">
+        <img src="assets/img/js.png" alt="html" width="90" height="90" class="items-center w-16">
       </div>
-      <div class="w-32 h-32 mr-3 bg-slate-100 dark:bg-gray-300 rounded-full flex justify-center items-center  cursor-pointer shadow-md hover:bg-white dark:hover:bg-indigo-400 dark:hover:shadow-indigo-200  hover:scale-110 hover:shadow-lg">
-        <img src="assets/img/tailwind.png" alt="html" width="90" height="90" class="items-center">
+      <div class="element skill relative w-28 h-28 mr-3 bg-slate-100 dark:bg-gray-300 rounded-full flex justify-center items-center  cursor-pointer shadow-md hover:bg-white dark:hover:bg-indigo-400 dark:hover:shadow-indigo-200 hover:scale-110 hover:shadow-lg" data-text="Experience 2 Month">
+        <img src="assets/img/tailwind.png" alt="html" width="90" height="90" class="items-center w-16">
       </div>
-      <div class="w-32 h-32 mr-3 bg-slate-100 dark:bg-gray-300 rounded-full flex justify-center items-center  cursor-pointer shadow-md hover:bg-white dark:hover:bg-indigo-400 dark:hover:shadow-indigo-200  hover:scale-110 hover:shadow-lg">
-        <img src="assets/img/bootstrap.png" alt="html" width="90" height="90" class="items-center">
+      <div class="elements skill relative w-28 h-28 mr-3 bg-slate-100 dark:bg-gray-300 rounded-full flex justify-center items-center  cursor-pointer shadow-md hover:bg-white dark:hover:bg-indigo-400 dark:hover:shadow-indigo-200 hover:scale-110 hover:shadow-lg" data-text="Experience 1 Month">
+        <img src="assets/img/bootstrap.png" alt="html" width="90" height="90" class="items-center w-16">
       </div>
-      <div class="w-32 h-32 mr-3 bg-slate-100 dark:bg-gray-300 rounded-full flex justify-center items-center  cursor-pointer shadow-md hover:bg-white dark:hover:bg-indigo-400 dark:hover:shadow-indigo-200  hover:scale-110 hover:shadow-lg">
-        <img src="assets/img/figma.png" alt="html" width="60" height="90" class="items-center">
+      <div class="element skill relative w-28 h-28 mr-3 bg-slate-100 dark:bg-gray-300 rounded-full flex justify-center items-center  cursor-pointer shadow-md hover:bg-white dark:hover:bg-indigo-400 dark:hover:shadow-indigo-200 hover:scale-110 hover:shadow-lg" data-text="Experience 1 Month">
+        <img src="assets/img/figma.png" alt="html" width="60" height="90" class="items-center w-16">
       </div>
     </div>
     <!-- circle -->
@@ -189,9 +190,9 @@
 <!-- My Project -->
 <section id="project" class=" mx-auto bg-gradient-to-t from-indigo-200  dark:from-slate-800 dark:to-slate-900 dark:text-gray-200 relative overflow-hidden">
   <div class="">
-    <h1 class="w-max mx-auto font-extrabold text-4xl pt-7 border-b-4 pb-2 border-sky-400">My Project</h1>
+    <h1 class="elemen w-max mx-auto font-extrabold text-4xl pt-7 border-b-4 pb-2 border-sky-400">My Project</h1>
   </div>
-<div class="min-h-screen p-3 relative ">
+<div class="min-h-screen p-3 relative elements">
   <div class="w-96 mx-auto" style="scroll-snap-type: x mandatory;">
      <!-- first -->
      <div class="">
@@ -205,7 +206,7 @@
               </h1>
               <p class="hover:cursor-pointer py-4 text-gray-600 dark:text-gray-200 leading-6">This website I make it to sell some vegetabels, fruit, and others from healthy food
               </p>
-              <a class="bg-sky-400 px-3 py-2 my-2 shadow-lg text-xl w-fit rounded-2xl text-white font-semibold hover:bg-sky-300" href="assets/web/E-commerce/index2.html" target="_blank">VISIT -></a>
+              <a class="bg-sky-400 px-3 py-2 my-2 shadow-lg text-xl w-fit rounded-xl text-white font-semibold uppercase hover:bg-sky-300" href="https://beautiful-blini-eb8b97.netlify.app" target="_blank">visit web</a>
            </div>
            <!-- controls -->
            <div class="absolute top-1/2 w-full flex justify-between z-20">
@@ -233,10 +234,9 @@
               <h1 class="hover:cursor-pointer mt-2 text-gray-900 dark:text-gray-200 font-extrabold text-2xl tracking-tight">
                 Education Website
               </h1>
-              <p class="hover:cursor-pointer py-4 text-gray-600 dark:text-gray-200 leading-6">Egestas diam in arcu cursus euismod
-                 quis. Fusce id velit ut tortor. Congue quisque egestas diam in arcu cursus euismod quis.
+              <p class="hover:cursor-pointer py-4 text-gray-600 dark:text-gray-200 leading-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolores reiciendis dolorum, architecto explicabo assumenda.
               </p>
-              <a class="bg-sky-400 px-3 py-2 my-2 shadow-lg text-xl w-fit rounded-2xl text-white font-semibold hover:bg-sky-300" href="assets/web/Project 1/index.html" target="_blank">VISIT -></a>
+              <a class="bg-sky-400 px-3 py-2 my-2 shadow-lg text-xl w-fit rounded-xl text-white font-semibold uppercase hover:bg-sky-300" href="https://ornate-griffin-6b9cda.netlify.app" target="_blank">visit web</a>
            </div>
            <!-- controls -->
            <div class="absolute top-1/2 w-full flex justify-between z-20">
@@ -264,11 +264,9 @@
               <h1 class="hover:cursor-pointer mt-2 text-gray-900  dark:text-gray-200 font-extrabold text-2xl tracking-tight">
                  Portfolio Website
               </h1>
-              <p class="hover:cursor-pointer py-5 text-gray-600 dark:text-gray-200 leading-6">Aliquam ultrices sagittis orci a
-                 scelerisque purus semper. Quisque id diam vel quam elementum pulvinar. Facilisis magna etiam
-                 tempor orci eu lobortis elementum.
+              <p class="hover:cursor-pointer py-5 text-gray-600 dark:text-gray-200 leading-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni expedita laudantium, minus vero perferendis cupiditate!
               </p>
-              <a class="bg-sky-400 px-3 py-2 shadow-lg text-xl w-fit rounded-2xl text-white font-semibold my-3 hover:bg-sky-300" href="assets/web/Tugas/index.html" target="_blank">VISIT -></a>
+              <a class="bg-sky-400 px-3 py-2 shadow-lg text-xl w-fit rounded-xl uppercase text-white font-semibold my-3 hover:bg-sky-300" href="https://magical-praline-6800a7.netlify.app" target="_blank">visit web</a>
            </div>
            <!-- controls -->
            <div class="absolute top-1/2 w-full flex justify-between z-20">
@@ -301,35 +299,35 @@
     <div class="w-full px-4">
       <div class="w-full mx-auto text-center mb-16">
       
-        <h1 class="font-bold text-4xl mb-4 sm:text-4xl lg:text-5xl ">Contact Me</h1>
-        <p class="font-medium text-md text-gray-400 md:text-lg">
+        <h1 class="element font-bold text-4xl mb-4 sm:text-4xl lg:text-5xl ">Contact Me</h1>
+        <p class="elemen font-medium text-md text-gray-400 md:text-lg">
           If you want to be a patner, please fill this form  :
         </p>
       </div>
     </div>
     <form action="">
       <div class="w-full lg:w-2/3 lg:mx-auto">
-      <div class="w-full px-10 md:px-20 mb-8">
+      <div class="element w-full px-10 md:px-20 mb-8">
         <label for="name" class="text-base font-bold text-indigo-500">Name :</label>
       <input type="text" id="name" class="w-full bg-slate-100 text-black p-3 rounded-md focus:outline-none focus:ring-indigo-400 focus:ring-2 focus:border-indigo-400">
     </div>
-    <div class="w-full px-10 md:px-20 mb-8">
+    <div class="elements w-full px-10 md:px-20 mb-8">
       <label for="email" class="text-base font-bold text-indigo-500">Email :</label>
       <input type="email" id="email" class="w-full bg-slate-100 text-black p-3 rounded-md focus:outline-none focus:ring-indigo-400 focus:ring-2 focus:border-indigo-400">
     </div>
-    <div class="w-full px-10 md:px-20 mb-8">
+    <div class="element w-full px-10 md:px-20 mb-8">
       <label for="message" class="text-base font-bold text-indigo-500">Message :</label>
       <textarea type="email" id="email" class="w-full bg-slate-100 text-black p-3 rounded-md focus:outline-none focus:ring-indigo-400 focus:ring-2 focus:border-indigo-400 h-32">
         </textarea>
       </div>
-      <div class="w-full px-10 md:px-20">
+      <div class="elementst w-full px-10 md:px-20">
         <button class="text-base font-semibold text-white bg-sky-400 py-3 px-4 rounded-2xl hover:opacity-80 hover:shadow-lg w-full transition duration-500 lg:w-1/4">SEND</button>
       </div>
     </div>
   </form>
   </div>
-     <a href="https://www.buymeacoffee.com/dgauderman" target="_blank" class="md:absolute absolute right-0 p-4 float-right animate-bounce">
-      <img src="https://www.buymeacoffee.com/assets/img/guidelines/logo-mark-3.svg" alt="Buy Me A Coffee" class="transition-all rounded-full w-14 -rotate-45 hover:shadow-sm shadow-lg ring hover:ring-4 ring-white">
+     <a href="#home" target="_blank" class="md:absolute absolute right-0 p-4 float-right animate-bounce">
+      <img src="https://www.buymeacoffee.com/assets/img/guidelines/logo-mark-3.svg" alt="Buy Me A Coffee" class="transition-all rounded-full w-14 -rotate-45 hover:shadow-sm shadow-lg ring hover:ring-4 ring-white ">
       </a>
       <div class=" absolute -top-[100px] -left-[100px] bg-gradient-to-t from-indigo-200   w-[200px] h-[200px] bg-indigo-400 rounded-full lg:right-0 shadow-lg dark:shadow-indigo-200"></div>
 </section>
@@ -340,9 +338,9 @@
   <div class="">
     <div class="text-center">
     <div class="flex justify-center">
-      <h1 class="font-bold text-3xl mb-6 mx-auto  ">Masyaa'il Khilmi</h1> 
+      <h1 class="element font-bold text-3xl mb-6 mx-auto  ">Masyaa'il Khilmi</h1> 
     </div>
- <div class="w-max mx-auto">
+ <div class="elemen w-max mx-auto">
     <div class="flex  mb-28">
       <input type="text" id="email" class=" bg-slate-200 text-black w-64  lg:w-96 p-1 rounded-xl focus:outline-none focus:ring-indigo-400 focus:ring-2 focus:border-indigo-400 " placeholder="email">
       <a class="bg-sky-400 px-3 py-1 ml-3 shadow-lg text-xl w-fit  rounded-2xl text-white font-bold hover:bg-sky-300" href="#contact">SEND</a>
@@ -351,14 +349,14 @@
   </div>
     <div class="flex flex-wrap lg:text-center">
      
-      <div class="w-full px-4 mb-12  font-medium md:w-1/3">
+      <div class="w-full px-4 mb-12  font-medium md:w-1/3 elemen">
          
-         <h3 class="font-bold text-2xl mb-2">Contact Me</h3>
+         <h3 class="font-bold text-2xl mb-2 ">Contact Me</h3>
          <p>masyaailkhilmi@gmail.com</p>
          <p>Mlati Lor, Rt02/Rw02, Kec. Kota</p>
          <p>Kudus</p>
       </div>
-      <div class="w-full px-4 mb-12 md:w-1/3">
+      <div class="w-full px-4 mb-12 md:w-1/3 elemen">
       <h3 class="font-semibold text-2xl mb-5">Category</h3>
       <ul>
         <li><a href="" class="inline-block text-base hover:text-indigo-500">Programming</a></li>
@@ -366,7 +364,7 @@
         <li><a href="" class="inline-block text-base hover:text-indigo-500">Programming</a></li>
       </ul>
     </div>
-      <div class="w-full px-4 mb-12 md:w-1/3">
+      <div class="w-full px-4 mb-12 md:w-1/3 elemen">
       <h3 class="font-semibold text-2xl mb-5">Link</h3>
       <ul>
         <li><a href="#home" class="inline-block text-base hover:text-indigo-500">Home</a></li>
@@ -378,26 +376,26 @@
     </div>
   </div>
   
-  <div class=" container w-full mx-auto pt-10 border-t border-slate-700">
-    <div class="flex justify-center mb-5 ">
+  <div class=" container w-full mx-auto pt-10 border-t border-slate-700 ">
+    <div class="flex justify-center mb-5 elements">
 
       <!-- Instagram -->
-        <a href="" target="_blank" class="w-9 h-9 border-2 border-indigo-400 bg-indigo-400 flex justify-center items-center mx-3 rounded-full hover:opacity-60 ">
+        <a href="https://www.instagram.com/masyaailkhilmi" target="_blank" class="w-9 h-9 border-2 border-indigo-400 bg-indigo-400 flex justify-center items-center mx-3 rounded-full hover:opacity-60 ">
           
           <svg xmlns="http://www.w3.org/2000/svg" width="24" class="fill-current" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg></a></li>
   
         <!-- facebook  -->
-        <a href="" target="_blank" class="w-9 h-9 border-2  border-indigo-400 bg-indigo-400 flex justify-center items-center mx-3 rounded-full hover:opacity-60 ">
+        <a href="http://www.facebook.com/masyaail.khilmi" target="_blank" class="w-9 h-9 border-2  border-indigo-400 bg-indigo-400 flex justify-center items-center mx-3 rounded-full hover:opacity-60 ">
           
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path></svg></a>
   
         <!-- twitter -->
-        <a href="" target="_blank" class="w-9 h-9 border-2  border-indigo-400 bg-indigo-400 flex justify-center items-center mx-3 rounded-full hover:opacity-60">
+        <a href="https://twitter.com/masyaail_khilmi" target="_blank" class="w-9 h-9 border-2  border-indigo-400 bg-indigo-400 flex justify-center items-center mx-3 rounded-full hover:opacity-60">
           
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg></a>
   
         <!-- Whatsapp -->
-        <a href="" target="_blank" class="w-9 h-9 border-2  border-indigo-400 bg-indigo-400 flex justify-center items-center mx-3 rounded-full hover:opacity-60  ">
+        <a href="https://api.whatsapp.com/send?phone=6282133713817&text=Follow%20me" target="_blank" class="w-9 h-9 border-2  border-indigo-400 bg-indigo-400 flex justify-center items-center mx-3 rounded-full hover:opacity-60  ">
           
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.403 5.633A8.919 8.919 0 0 0 12.053 3c-4.948 0-8.976 4.027-8.978 8.977 0 1.582.413 3.126 1.198 4.488L3 21.116l4.759-1.249a8.981 8.981 0 0 0 4.29 1.093h.004c4.947 0 8.975-4.027 8.977-8.977a8.926 8.926 0 0 0-2.627-6.35m-6.35 13.812h-.003a7.446 7.446 0 0 1-3.798-1.041l-.272-.162-2.824.741.753-2.753-.177-.282a7.448 7.448 0 0 1-1.141-3.971c.002-4.114 3.349-7.461 7.465-7.461a7.413 7.413 0 0 1 5.275 2.188 7.42 7.42 0 0 1 2.183 5.279c-.002 4.114-3.349 7.462-7.461 7.462m4.093-5.589c-.225-.113-1.327-.655-1.533-.73-.205-.075-.354-.112-.504.112s-.58.729-.711.879-.262.168-.486.056-.947-.349-1.804-1.113c-.667-.595-1.117-1.329-1.248-1.554s-.014-.346.099-.458c.101-.1.224-.262.336-.393.112-.131.149-.224.224-.374s.038-.281-.019-.393c-.056-.113-.505-1.217-.692-1.666-.181-.435-.366-.377-.504-.383a9.65 9.65 0 0 0-.429-.008.826.826 0 0 0-.599.28c-.206.225-.785.767-.785 1.871s.804 2.171.916 2.321c.112.15 1.582 2.415 3.832 3.387.536.231.954.369 1.279.473.537.171 1.026.146 1.413.089.431-.064 1.327-.542 1.514-1.066.187-.524.187-.973.131-1.067-.056-.094-.207-.151-.43-.263"></path></svg></a>
   
@@ -421,4 +419,5 @@
     <script src="script.js"></script>
     <script src="autotyping.js"></script>
   </body>
+
 </html>
